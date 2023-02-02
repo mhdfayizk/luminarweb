@@ -26,18 +26,3 @@
 .card-text{
     font-weight: 500;
 }
-.card{
-    transition: 1s ease-in-out;
-    /* height: 420px; */
-}
-.card:hover{
-    box-shadow: 0 0 20px rgba(117, 83, 83, 0.877);    transform: scale(1.01);
-}
-#conta{
-    transition: 1s ease-in-out;
-    height: 420px;
-}
-#conta:hover{
-    box-shadow: 0 0 20px rgba(117, 83, 83, 0.877);     transform: scale(1.01);
-
-}
