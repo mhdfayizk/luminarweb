@@ -14,7 +14,7 @@
 }
 .card{
     width: 400px;
-    height: 520px;
+    height: 514px;
     
 }
 .btn-card{
@@ -26,10 +26,20 @@
 .card-text{
     font-weight: 500;
 }
-#card-main{
+.card{
+    transition: 1s ease-in-out;
+    /* height: 420px; */
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+}
+#conta{
     transition: 1s ease-in-out;
     height: 420px;
 }
-#card-main:hover{
-    transform:scale(1.01);
+#conta:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+
 }
