@@ -9,3 +9,27 @@
     padding: 19px;
     font-weight: 500;
 }
+.paragraph{
+    margin-left: 40px;
+}
+.card{
+    width: 400px;
+    height: 520px;
+    
+}
+.btn-card{
+    border: none;
+    color: white;
+    height: 37px;
+    width: 124px;
+}
+.card-text{
+    font-weight: 500;
+}
+#card-main{
+    transition: 1s ease-in-out;
+    height: 420px;
+}
+#card-main:hover{
+    transform:scale(1.01);
+}
